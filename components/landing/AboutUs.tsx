@@ -82,7 +82,7 @@ export default function AboutUs() {
                 />
               </div>
               <div className="absolute -bottom-6 -left-6 w-48 h-48 border-2 border-[#D7CCC8] rounded-sm flex items-center justify-center p-4 bg-white/80 backdrop-blur-sm">
-                <p className="text-center text-base-semibold text-[#8B4513] font-serif">Традиції кави з 1829 року</p>
+                <p className="text-center text-base-semibold text-[#8B4513] font-serif">Традиції кави з 1675 року</p>
               </div>
             </motion.div>
           </div>

@@ -74,8 +74,8 @@ const Footer = () => {
 
           <div className="w-full">
             <h3 className="text-heading4-medium font-serif mb-4">Контакти</h3>
-            <p className="mb-2 text-base-regular">Тел: +380 32 235 51 54</p>
-            <p className="mb-4 text-base-regular">Email: info@lviv-coffee-mine.com</p>
+            <p className="mb-2 text-base-regular">Тел: +38 (050) 371 44 74</p>
+            <p className="mb-4 text-base-regular">Email: kopalnya@fest.foundation</p>
             <h4 className="text-base-semibold mb-2">Ми в соцмережах</h4>
             <div className="flex space-x-4">
               <a href="#" className="text-[#E6C2A0] hover:text-[#D2B48C] transition-colors">
@@ -98,7 +98,7 @@ const Footer = () => {
             </p>
             <div className="flex flex-col items-center lg:items-end space-y-2 lg:space-y-0">
               <span className="text-small-regular text-[#D2B48C] text-center lg:text-right">
-                Традиції кави з 1829 року
+                Традиції кави з 1675 року
               </span>
               <div className="flex space-x-2 mt-2 lg:mt-1">
                 <Image

@@ -5,11 +5,10 @@ import { motion, useInView } from "framer-motion"
 import Image from "next/image"
 
 const milestones = [
-  { year: 1938, event: "Відкриття першої кавової фабрики у Львові" },
-  { year: 1998, event: "Відродження традицій львівського кавярства" },
+  { year: 1675, event: "Юрій Кульчицький заклав кавові зерна в шахті як корисні копалини" },
+  { year: 1941, event: "Ярослав Стецько проголосив 'Акт відновлення Української державності' з балкона будинку" },
   { year: 2009, event: "Заснування 'Львівської Копальні Кави'" },
-  { year: 2015, event: "Відкриття музею кави у підземеллі" },
-  { year: 2022, event: "Розширення мережі кав'ярень" },
+  { year: 2024, event: "Популяризація запаяної кави та кавового пива" },
 ]
 
 export default function History() {
@@ -31,7 +30,7 @@ export default function History() {
           animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          Наша Історія
+          Тут народжується львівська кава
         </motion.h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
           <motion.div
@@ -65,14 +64,14 @@ export default function History() {
           >
             <Image
               src="/assets/history-image.jpg"
-              alt="Історія Львівської кави"
+              alt="Львівська Копальня Кави"
               width={800}
               height={600}
               className="rounded-sm object-cover"
             />
             <div className="absolute inset-0 bg-[#1C0A00] bg-opacity-30 flex items-center justify-center">
               <p className="text-heading3-bold text-[#E6C2A0] text-center font-serif px-4">
-                Майже 17 років традицій львівської кави
+                Запаяна кава, кавове пиво, шахти повні ароматних зерен… Ще не чув?
               </p>
             </div>
           </motion.div>
@@ -81,4 +80,3 @@ export default function History() {
     </motion.section>
   )
 }
-
