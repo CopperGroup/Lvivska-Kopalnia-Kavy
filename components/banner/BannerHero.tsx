@@ -26,12 +26,12 @@ export default function BannerHero() {
               />
             </div>
             <h1 className="text-5xl md:text-7xl font-serif text-[#E6C2A0] leading-tight">
-              Lvivs'ka
+              Lvivs&apos;ka
               <br />
               <span className="text-[#8B4513]">Kopalnia Kavy</span>
             </h1>
             <p className="text-xl md:text-2xl text-[#D2B48C] max-w-xl font-light">
-              Unearth the rich flavors of Lviv's coffee heritage, where tradition meets modern craftsmanship.
+              Unearth the rich flavors of Lviv&apos;s coffee heritage, where tradition meets modern craftsmanship.
             </p>
             <div className="flex space-x-4">
               <Button
